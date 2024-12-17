@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolas Henrique - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-image: 
+                linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+                url('img/fundo.jpg'); /* Substitua pelo caminho da sua imagem */
+            background-size: cover; /* Garante que a imagem cubra todo o header */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Evita repetição da imagem */
+            color: #fff; /* Mantém o texto branco */
+            padding: 20px;
+            text-align: center;
+}
+
+
+        header h1 {
+            margin: 0;
+            margin-top: 200px;
+            font-size: 2.7rem;
+        }
+        nav {
+            margin-top: 150px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        .photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 5%;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project {
+            flex: 1 1 calc(50% - 20px);
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        .language-selector {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .language-selector a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        .language-selector a.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .language-selector a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nicolas Henrique | Developer</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="language-selector">
+        <a href="portfolio-en.html" class="active">English</a> | <a href="index.html">Português</a>
+    </div>
+
+    <section id="about">
+        <div class="photo">
+            <img src="img/foto3.png" alt="Nicolas Henrique">
+        </div>
+        <h2>About Me</h2>
+        <p>Hello! I’m Nicolas Henrique, a passionate and aspiring developer with a technical background in Systems Analysis and Development. My goal is to create innovative solutions and deliver high-quality work.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <div class="project">
+                <h3>High School and Technical Course</h3>
+                <p>High school alongside a technical course in Systems Analysis and Development at ETEC Jardim Ângela, the institution where I received all my IT training.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Pre-sale E-commerce System</h3>
+                <p>I was the full-stack developer of a web-based pre-sale e-commerce system for the company Âtlantica, a luxury pet furniture manufacturer. The project was my final project for the Systems Analysis and Development course at ETEC Jardim Ângela.</p>
+            </div>
+            <div class="project">
+                <h3>Child Literacy</h3>
+                <p>Together with a classmate, I worked on a technical project for children’s literacy, choosing football as the theme. It’s a C# and .NET application, easy to navigate and understand.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications and Licenses</h2>
+        <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+            <thead>
+                <tr style="background-color: #f4f4f9; border-bottom: 2px solid #ddd;">
+                    <th style="text-align: left; padding: 10px; border: 1px solid #ddd;">Certification/License</th>
+                    <th style="text-align: left; padding: 10px; border: 1px solid #ddd;">Institution/Organization</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Technical Course in Systems Analysis and Development</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">ETEC</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Python (basic)</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fundação Bradesco</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Ethics in Systems Development</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fundação Bradesco</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Business Communication</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fundação Bradesco</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Professional Development</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fundação Bradesco</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">English Language (basic review)</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fundação Bradesco</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Microsoft Excel (basic)</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fundação Bradesco</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Artificial Intelligence</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fundação Bradesco</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">IT Security</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fundação Bradesco</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Microsoft SharePoint</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fundação Bradesco</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Microsoft Office 365</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fundação Bradesco</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">AI-900 - AI Fundamentals on Azure</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fundação Bradesco</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Inclusivity</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fundação Bradesco</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Internet of Things (IoT)</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Santander Open Academy</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Generative AI</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Santander Open Academy</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">LGPD</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Santander Programa Avançar+</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Branding</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Santander Programa Avançar+</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Design and Photoshop</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">CETEC</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Introduction to Business Intelligence</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fundação Getúlio Vargas</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">What is Data Science?</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">IBM SkillsBuild</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Business Computing</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">IBM SkillsBuild</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">IBM and Thinking</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">IBM SkillsBuild</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch, feel free to reach out:</p>
+        <p>Email: <a href="mailto:nicolashss27@gmail.com">nicolashss27@gmail.com</a></p>
+        <p>Phone: +55 11 94785-5960</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nicolas Henrique. All rights reserved.</p>
+    </footer>
+</body>
+</html>
